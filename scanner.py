@@ -1,8 +1,6 @@
 import sys
 
 def isDelimiter(ch):
-    # REMOVED the backslashes before [ and ]
-    # Also added common separators like ':' for Python compatibility
     return ch in ' +-*/,;><=()[]{}' 
 
 def isOperator(ch):
